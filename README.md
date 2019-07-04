@@ -5,7 +5,7 @@ sudo -H pip3 install sounddevice<br>
 sudo -H pip3 install soundfile<br>
 
 # Find out what audio interface is avalabale
-python3 -m sounddevice
+python3 -m sounddevice<br>
   0 HDA Intel PCH: ALC3246 Analog (hw:0,0), ALSA (2 in, 0 out)<br>
   1 pulse, ALSA (32 in, 32 out)<br>
 * 2 default, ALSA (32 in, 32 out)<br>
