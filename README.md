@@ -12,7 +12,7 @@ python3 -m sounddevice<br>
 ## Playing 1khz tone to specker devce (1 and 2 should work as seen above)
 python3 play_sound_file.py 1kHz_44100Hz_16bit_05sec.wav -d 1
 ## Testing sending mic input to soundcard
-python3 ./wire.py<br>
+python3 ./wire.py -i 1 -o 1 -c1 <br>
 optional arguments:
   -h, --help            show this help message and exit<br>
   -i INPUT_DEVICE, --input-device INPUT_DEVICE<br>
